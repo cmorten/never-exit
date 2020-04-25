@@ -1,0 +1,52 @@
+{
+  "name": "never-exit",
+  "version": "1.0.0",
+  "description": "Prevent an idle Node process from exiting.",
+  "main": "lib/index.es5.js",
+  "module": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asos-craigmorten/never-exit.git"
+  },
+  "keywords": [
+    "node",
+    "process",
+    "idle",
+    "exit",
+    "forever"
+  ],
+  "author": "Craig Morten <craig.morten@asos.com>",
+  "bugs": {
+    "url": "https://github.com/asos-craigmorten/never-exit/issues"
+  },
+  "homepage": "https://github.com/asos-craigmorten/never-exit#README",
+  "scripts": {
+    "ci": "yarn lint && yarn test && yarn build && yarn test:int",
+    "build": "cross-env BABEL_ENV=node rollup -c server.rollup.js",
+    "lint": "eslint ./src",
+    "test": "jest --testPathIgnorePatterns int.test.js --coverage",
+    "test:int": "jest test/*.int.test.js",
+    "prepublishOnly": "yarn ci"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.3.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "rollup": "^2.6.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
