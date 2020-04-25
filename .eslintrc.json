@@ -11,11 +11,6 @@
     "prettier"
   ],
   "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
   "plugins": ["import", "jest", "prettier"],
   "rules": {
     "import/no-extraneous-dependencies": "error",

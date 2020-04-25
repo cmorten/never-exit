@@ -1,5 +1,11 @@
 # ChangeLog
 
+## [1.0.1] - 25-04-2020
+
+### Update
+
+- Fixed some copy pasta in config / docs.
+
 ## [1.0.0] - 25-04-2020
 
 ### Added

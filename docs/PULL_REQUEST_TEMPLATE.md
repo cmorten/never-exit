@@ -1,6 +1,6 @@
 # Issue
 
-[_ISSUE_ID_](https://github.com/asos-craigmorten/grafana-jsx/issues/_ISSUE_ID_)
+[_ISSUE_ID_](https://github.com/asos-craigmorten/never-exit/issues/_ISSUE_ID_)
 
 ## Details
 

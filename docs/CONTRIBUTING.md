@@ -42,8 +42,6 @@ Broadly we're in-tune with the following style guides:
   - <https://github.com/prettier/prettier>
   - <https://github.com/airbnb/javascript>
   - <https://github.com/ryanmcdermott/clean-code-javascript>
-- React
-  - <https://github.com/airbnb/javascript/tree/master/react>
 
 ### Unit tests
 

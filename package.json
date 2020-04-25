@@ -1,6 +1,6 @@
 {
   "name": "never-exit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prevent an idle Node process from exiting.",
   "main": "lib/index.es5.js",
   "module": "lib/index.js",
