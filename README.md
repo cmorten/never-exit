@@ -2,6 +2,21 @@
 
 Library to ensure your Node processes never exit by themselves.
 
+## Contents
+
+<!-- toc -->
+
+- [Usage](#usage)
+- [Developing](#developing)
+  - [Install](#install)
+  - [Build](#build)
+  - [Test](#test)
+  - [Lint](#lint)
+- [Contributing](#contributing)
+- [Changelog](#changelog)
+
+<!-- tocstop -->
+
 ## Usage
 
 ```js
